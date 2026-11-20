@@ -1,5 +1,5 @@
 const config = window.DARIJA_CONFIG || {};
-export const configured = Boolean(config.supabaseUrl && config.supabaseKey);
+export const configured = Boolean(config.accountsEnabled !== false && config.supabaseUrl && config.supabaseKey);
 export const empty = () => ({completed:[],bookmarks:[],reviews:{},drafts:{},days:[],xp:0,arabic:false});
 function read(key, fallback) {try{return JSON.parse(localStorage.getItem(key)) || fallback}catch{return fallback}}
 let session = read('darija-session',null);

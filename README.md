@@ -24,6 +24,10 @@ npm run build
 
 The development server listens at http://127.0.0.1:4173. Vercel builds `dist/` using `vercel.json`.
 
+## Release mode
+
+Guest access is enabled for this release at https://darija-path.vercel.app. The owner deferred public accounts until production email setup. Set `accountsEnabled: true` in config.js only after email delivery and authentication redirects are configured and tested. If using build-time Supabase overrides, also set `ACCOUNTS_ENABLED=true`.
+
 ## Supabase
 
 Project: `vhqmjmlegxkvoitbxvzt` (Darija Path). The initial schema is in `supabase/001_learner_state.sql` and has been applied. All four data policies restrict access to `auth.uid() = user_id`. Anonymous access to the table is revoked. Only a public publishable key is used in the browser; never put service-role keys in this repository.
@@ -48,4 +52,4 @@ Reference for further curriculum development: [Peace Corps Moroccan Arabic resou
 
 ## Verification
 
-Automated checks cover stage completeness, vocabulary/answer consistency, bookmark identifiers, alphabet/conversation integrity, account/guest isolation, and authenticated write ownership. Browser checks cover lesson navigation, script toggle, bookmarks, spelling aliases, saved drafts after reload, completion and conversation scoring. Supabase security advisor reported no findings after migration. Real email confirmation/recovery and cross-device login must be tested once production URL and SMTP are configured.
+Automated checks cover stage completeness, vocabulary/answer consistency, bookmark identifiers, alphabet/conversation integrity, account/guest isolation, and authenticated write ownership. Browser checks cover lesson navigation, script toggle, bookmarks, spelling aliases, saved drafts after reload, completion and conversation scoring. Supabase security advisor reported no findings after migration. A rolled-back database integration test verified own-account reads/updates and blocked other-account reads, updates, and inserts. Real email confirmation/recovery and cross-device login must be tested once production URL and SMTP are configured.
