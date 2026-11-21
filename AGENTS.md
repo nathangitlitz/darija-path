@@ -15,6 +15,8 @@
 - Acknowledge regional and spelling variation. Answer checks should accept supported variants without collapsing meaningful sound distinctions. Do not claim that every alternative spelling is wrong.
 - Preserve the established visual design and responsive, keyboard-accessible interactions unless the task calls for changes.
 
+- Use direct, specific interface copy. Avoid generic motivational slogans and repeated encouragement. Preserve the owner-approved sidebar text “ONE WORD AT A TIME” and “Shwiya b shwiya.”
+
 ## Code map
 
 - `src/app.js`: UI rendering, hash routes, lesson interactions, bookmarks, and practice sessions.

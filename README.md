@@ -17,7 +17,7 @@ For contributors and new coding chats: read [AGENTS.md](AGENTS.md) for working i
 - Review prioritizes missed items, due items, unseen items, then early review. Successful recall grows intervals from 1 day to a 30-day cap; misses return sooner. Explicit word-specific Arabizi aliases are supported, without collapsing meaningful consonants.
 - Bookmarks for vocabulary, exchanges, grammar paragraphs and entire lessons; searchable saved collection.
 - Guest persistence, email/password login, signup confirmation, password recovery, cloud progress and explicit guest import.
-- Responsive layout and keyboard-accessible controls.
+- Responsive layout and keyboard-accessible controls, with direct interface copy and the retained “ONE WORD AT A TIME / Shwiya b shwiya” sidebar note.
 
 ## Run
 

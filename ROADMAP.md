@@ -62,9 +62,9 @@ Text-first tutoring was recommended as an initial experiment. Voice would requir
 
 React, Next.js, and a separate backend were explained as options. No migration is requested. Keep the current stack for routine improvements; assess server functions or a framework when an approved feature requires them. A standalone backend is not currently needed.
 
-## Next site changes
+## Interface copy
 
-The owner has mentioned additional site changes but has not specified them yet. Record concrete requests and acceptance criteria here when agreed; do not invent a feature list or priority order.
+The owner requested removing most generic motivational slogans. Navigation, page headings, descriptions, and feedback now use direct language. Keep the sidebar’s “ONE WORD AT A TIME” and “Shwiya b shwiya.” Other future site changes have not yet been specified.
 
 ## Working across chats
 
