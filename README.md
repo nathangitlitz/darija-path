@@ -2,6 +2,8 @@
 
 A vocabulary-first Moroccan Arabic learning website. Built as a portable static ES-module app with Supabase Auth/Postgres and Vercel hosting. No framework or runtime dependencies are required.
 
+For contributors and new coding chats: read [AGENTS.md](AGENTS.md) for working instructions and [ROADMAP.md](ROADMAP.md) for delivered features, deferred work, and proposals that have not yet been approved.
+
 ## Included
 
 - 120 lessons overall: beginner, intermediate, and advanced each have 8 units, 32 teaching lessons, and 8 checkpoints.
